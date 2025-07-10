@@ -2,7 +2,7 @@
 
 Jessi Smagghe - Berlin 2025 Commercial Sprint
 
-"Automating Compliance and System Hardening in Landscape"
+"Automating CIS and DISA-STIG compliance on Ubuntu"
 
 # Overview
 This demo will provide you a testing environment to explore methods of automating compliance and system hardening in Landscape. The setup will:
@@ -22,9 +22,8 @@ This demo will provide you a testing environment to explore methods of automatin
 
 ### Part One: Deploy the Landscape Server
 1. Clone the repo: `git clone https://github.com/jessismagghe/landscape-hardening-demo.git`
-2. Make the script executable: `chmod +x landscape-deploy-demo.sh`
-3. Run the deployment script: `./landscape-deploy-demo.sh`
-4. Enter your [Ubuntu Pro Token](https://ubuntu.com/pro/dashboard) when prompted.
+2. Run the deployment script: `./landscape-deploy-demo.sh`
+3. Enter your [Ubuntu Pro Token](https://ubuntu.com/pro/dashboard) when prompted.
 
 ### Part Two: Configure Landscape and Deploy Clients
 _When the Landscape Server deployment is complete the script **WILL PAUSE** and Landscape UI will open in a new browser window. To allow you to **create an admin account.**_
