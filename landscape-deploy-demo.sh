@@ -106,6 +106,8 @@ echo -e $"1. Deploy a 25.04 Landscape Server\n\
 
 # Ask for Pro Token
 echo ""
+echo "https://ubuntu.com/pro/dashboard"
+echo ""
 read -rp "$(echo -e "Enter your ${ORANGE}Ubuntu Pro token${NONE}: ")" PRO_TOKEN
 echo ""
 
