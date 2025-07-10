@@ -2,7 +2,7 @@
 
 Jessi Smagghe - Berlin 2025 Commercial Sprint
 
-"Automating CIS and DISA-STIG compliance on Ubuntu"
+"Automating CIS and DISA-STIG compliance with Landscape"
 
 # Overview
 This demo will provide you a testing environment to explore methods of automating compliance and system hardening in Landscape. The setup will:
