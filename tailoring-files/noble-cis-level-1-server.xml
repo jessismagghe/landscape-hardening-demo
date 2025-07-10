@@ -512,7 +512,7 @@
     <!--5.4.2.5: Ensure root path integrity (Automated)-->
     <select idref="xccdf_org.ssgproject.content_rule_accounts_root_path_dirs_no_write" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_root_path_all_dirs" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_root_path_no_dot" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_root_path_no_dot" selected="false"/>
     <select idref="xccdf_org.ssgproject.content_rule_no_dirs_unowned_by_root" selected="true"/>
     <!--5.4.2.6: Ensure root user umask is configured (Automated)-->
     <select idref="xccdf_org.ssgproject.content_rule_accounts_umask_root" selected="true"/>
@@ -599,9 +599,9 @@
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_var_log_syslog" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_var_log_waagent" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_file_permissions_var_log_wbtmp" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_groupownerships_var_log" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_ownerships_var_log" selected="true"/>
-    <select idref="xccdf_org.ssgproject.content_rule_permissions_local_var_log" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_groupownerships_var_log" selected="false"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_ownerships_var_log" selected="false"/>
+    <select idref="xccdf_org.ssgproject.content_rule_permissions_local_var_log" selected="false"/>
     <!--6.3.1: Ensure AIDE is installed (Automated)-->
     <select idref="xccdf_org.ssgproject.content_rule_aide_build_database" selected="true"/>
     <select idref="xccdf_org.ssgproject.content_rule_package_aide_installed" selected="true"/>
@@ -681,9 +681,9 @@
     <!--7.2.8: Ensure no duplicate group names exist (Automated)-->
     <select idref="xccdf_org.ssgproject.content_rule_group_unique_name" selected="true"/>
     <!--7.2.9: Ensure local interactive user home directories are configured (Automated)-->
-    <select idref="xccdf_org.ssgproject.content_rule_accounts_user_interactive_home_directory_exists" selected="false"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_groupownership_home_directories" selected="false"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_ownership_home_directories" selected="false"/>
-    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_home_directories" selected="false"/>
+    <select idref="xccdf_org.ssgproject.content_rule_accounts_user_interactive_home_directory_exists" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_groupownership_home_directories" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_ownership_home_directories" selected="true"/>
+    <select idref="xccdf_org.ssgproject.content_rule_file_permissions_home_directories" selected="true"/>
   </Profile>
 </Tailoring>
