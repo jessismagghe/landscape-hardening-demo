@@ -4,4 +4,4 @@ TAILORING_FILE="$LANDSCAPE_ATTACHMENTS/jammy-level-1-server.xml"
 
 sudo usg fix --tailoring-file "$TAILORING_FILE"
 
-sudo restart
+sudo reboot
