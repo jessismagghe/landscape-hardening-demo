@@ -4,7 +4,7 @@ set -e
 source "$(dirname "$0")/box-msg.sh"
 
 # General configs
-LXD_PROJECT="Landscape-Demo-25-04"
+LXD_PROJECT="Landscape-25-04-Demo-Project"
 
 # Logging colors
 BLUE='\033[38;2;0;255;255m'

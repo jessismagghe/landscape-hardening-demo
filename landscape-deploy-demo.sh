@@ -3,11 +3,13 @@
 set -e
 source "$(dirname "$0")/box-msg.sh"
 
+# Change this for more containers
+NUM_JAMMY_CLIENTS=0
+NUM_NOBLE_CLIENTS=1
+
 # General configs
-NUM_JAMMY_CLIENTS=2
-NUM_NOBLE_CLIENTS=2
-LXD_PROJECT="Landscape-Demo-25-04"
-LANDSCAPE_SERVER="landscape-demo-server-25-04"
+LXD_PROJECT="Landscape-25-04-Demo-Project"
+LANDSCAPE_SERVER="landscape-25-04-demo-server"
 LANDSCAPE_IP=''
 
 # Logging colors
