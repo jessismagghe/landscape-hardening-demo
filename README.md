@@ -3,7 +3,7 @@
 Jessi Smagghe - Berlin 2025 Commercial Sprint
 
 "Automating CIS and DISA-STIG compliance with Landscape"
-* [Presentation Slides]()
+* [Presentation Slides](https://docs.google.com/presentation/d/1Sn_f6Q80TL4gz_brUtvI9Hdpaav-lhHi6MFV5snZ5f8/edit?usp=sharing)
 * [Acronym Guide](./reference.md#acronym-guide)
 * [Presentation Links](./reference.md#presentation-links)
 
