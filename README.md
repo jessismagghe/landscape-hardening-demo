@@ -11,12 +11,12 @@ Jessi Smagghe - Berlin 2025 Commercial Sprint
 This demo will provide you a testing environment to explore methods of automating compliance and system hardening in Landscape. The setup will:
 
 1. Deploy a [25.04 Landscape Server](https://documentation.ubuntu.com/landscape/reference/release-notes/25.04-release-notes/)
-2. Deploy Ubuntu 24.04 and 22.04 client containers
-3. Configure client containers with:
+2. Deploy an Ubuntu 24.04 client container
+3. Configure client with:
     - Ubuntu Pro
     - Ubuntu Security Guide
     - [Security Profiles Landscape Plugin](https://documentation.ubuntu.com/landscape/how-to-guides/web-portal/web-portal-24-04-or-later/use-security-profiles/)
-4. Enroll clients with your Landscape server
+4. Enroll client with your Landscape server
 
 
 # Deploying The Demo
