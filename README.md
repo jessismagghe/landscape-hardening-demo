@@ -37,7 +37,7 @@ _When the Landscape Server deployment is complete the script **WILL PAUSE** and 
 # Tearing Down The Demo
 You can chose to run the automatic teardown script `./landscape-teardown-demo.sh` or preform the following manual steps in the LXD UI:
 
-1. Navigate to the `Landscape-Demo-25-04` LXD project.
+1. Navigate to the `Landscape-25-04-Demo-Project` LXD project.
 2. Navigate to the `Instances` tab. "Stop" and "Delete" all containers.
 3. Navigate to the `Images` tab. Select all images and "Delete."
 4. Navigate to the `Configuration` tab and "Delete Project"
